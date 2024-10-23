@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #ayat-display {
+    margin: 20px auto;
+  }
+  
+  .arabic {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .bangla {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .surah-info {
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.arabic-text {
+    font-size: 1.5em;
+    color: green;
+    direction: rtl;
+    /* font-family: 'Scheherazade', serif; */
+}
+
+.bangla-text {
+    font-size: 1.3em;
+    margin-top: 10px;
+
+}
+
+.surah-info {
+    margin-top: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
