@@ -1,0 +1,17 @@
+.container {
+    width: 500px;
+    min-height: 500px;
+    background-image: url('image.jpg'); /* Replace with your local image file name */
+    background-size: cover; /* Cover the entire card */
+    background-position: center; /* Center the image */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative; /* Position relative for content layering */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center content horizontally */
+    overflow: hidden; /* Hide overflow content */
+
+}

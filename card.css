@@ -15,9 +15,8 @@ body {
 }
 .container {
     width: 500px;
-    height: 500px;
+    min-height: 500px;
     background-image: url('i2.jpg'); /* Replace with your local image file name */
-    background-image: url('image.jpg');
     background-size: cover; /* Cover the entire card */
     background-position: center; /* Center the image */
     border: 1px solid #ddd;
@@ -94,7 +93,9 @@ body {
     font-size: 14px; /* Smaller font size for reference */
     color: white; /* White color */
     text-align: center; /* Center the reference text */
-    margin-top: 80px;
+    background-color: #21883742;
+    padding: 6px 30px;
+    border-radius: 30px;
 }
 .main{
     display: flex;

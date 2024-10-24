@@ -74,6 +74,11 @@ body {
     font-style: italic;
     margin-top: 50px;
 }
+.surah-info-eng {
+    margin-top: -10px;
+    font-style: italic;
+  
+}
 
 button {
     padding: 10px 20px;
